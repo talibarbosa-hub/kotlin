@@ -68,14 +68,14 @@
         android:backgroundTint="@color/colorBtn"
         android:text="Sair"
         android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/btnCadastro"
+        app:layout_constraintBottom_toTopOf="@+id/btnSite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvSexo" />
 
     <Button
-        android:id="@+id/btnCadastro"
+        android:id="@+id/btnSite"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:background="@drawable/borderradius"
