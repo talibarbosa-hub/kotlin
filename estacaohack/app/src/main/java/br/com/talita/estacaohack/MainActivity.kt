@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             finishAffinity()
         }
 
-        btnSite.setOnClickListener {
+        btnSite.setOnClickListener{
             startActivity(Intent(this@MainActivity,WebActivity::class.java))
         }
     }
